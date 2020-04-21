@@ -3,15 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
-
+[RequireComponent(typeof(AudioSource))]
 public class InteractionTest : MonoBehaviour
 {
     public int color = 0;
     public Renderer rend;
+
+    public AudioSource Sound;
     // Start is called before the first frame update
     void Start()
     {
         rend = GetComponent<Renderer>();
+        Sound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,6 +31,7 @@ public class InteractionTest : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         Debug.Log("test");
+        Sound.Play(0);
         switch (color)
         {
             case 0: rend.material.color = Color.white; break;

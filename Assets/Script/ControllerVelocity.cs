@@ -8,6 +8,8 @@ public class ControllerVelocity : MonoBehaviour
     public GameObject SpawnPoint;
     private Rigidbody rb;
 
+    public bool Left = false;
+    public bool Right = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +21,16 @@ public class ControllerVelocity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        speed = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch).magnitude;
+        //speed = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch).magnitude;
+        if (Left)
+        {
+            speed = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.LTouch).magnitude;
+        }
+        else if(Right)
+        {
+            speed = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch).magnitude;
+        }
+        
     }
 
     void OnCollisionExit(Collision other)

@@ -18,6 +18,7 @@ public class Interaction : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         SoundSource = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame

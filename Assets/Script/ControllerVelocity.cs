@@ -6,10 +6,14 @@ public class ControllerVelocity : MonoBehaviour
 {
     public float speed;
     public GameObject SpawnPoint;
+    private Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
+        this.rb.velocity = Vector3.zero;
+        this.rb.angularVelocity = Vector3.zero;
     }
 
     // Update is called once per frame

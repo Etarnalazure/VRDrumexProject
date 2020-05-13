@@ -29,6 +29,7 @@ public class ControllerVelocity : MonoBehaviour
         else if(Right)
         {
             speed = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch).magnitude;
+           OVRInput.SetControllerVibration(1,1, OVRInput.Controller.RTouch);
         }
         
     }

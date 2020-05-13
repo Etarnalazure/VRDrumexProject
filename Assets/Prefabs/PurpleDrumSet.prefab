@@ -34,7 +34,7 @@ Transform:
   m_LocalScale: {x: 0.372, y: 0.0003734566, z: 0.372}
   m_Children: []
   m_Father: {fileID: 5201014745273849022}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7721605908517220559
 MeshFilter:
@@ -97,7 +97,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 2
   rend: {fileID: 3128515203688248992}
-  Sound: {fileID: 0}
+  force: 0
+  SoundSource: {fileID: 0}
+  Sound:
+  - {fileID: 0}
 --- !u!54 &2997275534341562258
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -506,87 +509,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &2461585824931927963
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2387056008869251723}
-  - component: {fileID: 1415865119984532659}
-  - component: {fileID: 1421161101514662864}
-  m_Layer: 0
-  m_Name: HighHat_LOD0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2387056008869251723
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2461585824931927963}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.125, y: 0, z: -0.071}
-  m_LocalScale: {x: 0.12704188, y: 0.12704188, z: 0.12704188}
-  m_Children: []
-  m_Father: {fileID: 5201014745273849022}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1415865119984532659
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2461585824931927963}
-  m_Mesh: {fileID: 4300006, guid: 3ccc9b4f7e10c4284954b383a10d44b2, type: 3}
---- !u!23 &1421161101514662864
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2461585824931927963}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: cb469c55bdbd34e4f87eba3277d9dd28, type: 2}
-  - {fileID: 2100000, guid: de88176d22fe94a3ea4db8ce61ecbb80, type: 2}
-  - {fileID: 2100000, guid: 1ce37f74586a3417ebce07c690668e39, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &2607643862398739683
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,7 +698,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 2
   rend: {fileID: 5280013693749874570}
-  Sound: {fileID: 0}
+  force: 0
+  SoundSource: {fileID: 0}
+  Sound:
+  - {fileID: 0}
 --- !u!54 &3231599917103005070
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1145,7 +1070,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 2
   rend: {fileID: 1776732524060114668}
-  Sound: {fileID: 0}
+  force: 0
+  SoundSource: {fileID: 0}
+  Sound:
+  - {fileID: 0}
 --- !u!54 &6426058486595480818
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1369,7 +1297,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 2
   rend: {fileID: 5694377984116293986}
-  Sound: {fileID: 0}
+  force: 0
+  SoundSource: {fileID: 0}
+  Sound:
+  - {fileID: 0}
 --- !u!54 &4565061466413848623
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1720,7 +1651,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 2
   rend: {fileID: 4573610868201832256}
-  Sound: {fileID: 0}
+  force: 0
+  SoundSource: {fileID: 0}
+  Sound:
+  - {fileID: 0}
 --- !u!54 &1154915125849348943
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1944,7 +1878,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 2
   rend: {fileID: 6659411622925048769}
-  Sound: {fileID: 0}
+  force: 0
+  SoundSource: {fileID: 0}
+  Sound:
+  - {fileID: 0}
 --- !u!54 &8222718639975545496
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2168,7 +2105,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 2
   rend: {fileID: 2020562637567230197}
-  Sound: {fileID: 0}
+  force: 0
+  SoundSource: {fileID: 0}
+  Sound:
+  - {fileID: 0}
 --- !u!54 &7511746275904927786
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2391,7 +2331,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 2
   rend: {fileID: 4974887962533064051}
-  Sound: {fileID: 0}
+  force: 0
+  SoundSource: {fileID: 0}
+  Sound:
+  - {fileID: 0}
 --- !u!54 &2930749497828880560
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2774,7 +2717,6 @@ Transform:
   m_LocalPosition: {x: -4.7010965, y: 0.014440643, z: -2.9112227}
   m_LocalScale: {x: 6.328565, y: 6.328561, z: 6.3285656}
   m_Children:
-  - {fileID: 2387056008869251723}
   - {fileID: 7097153801851620278}
   m_Father: {fileID: 6605928308694877519}
   m_RootOrder: 3
@@ -2796,7 +2738,7 @@ LODGroup:
   - screenRelativeHeight: 0.25
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 1421161101514662864}
+    - renderer: {fileID: 0}
   - screenRelativeHeight: 0.125
     fadeTransitionWidth: 0
     renderers:

@@ -1128,6 +1128,46 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1627644483381081612, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.03438568
+      objectReference: {fileID: 0}
+    - target: {fileID: 1627644483381081612, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.011127306
+      objectReference: {fileID: 0}
+    - target: {fileID: 1627644483381081612, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0006624591
+      objectReference: {fileID: 0}
+    - target: {fileID: 1627644483381081612, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99934655
+      objectReference: {fileID: 0}
+    - target: {fileID: 1627644483381081612, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1627644483381081612, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1627644483381081612, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -3.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 1627644483381081612, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.99
+      objectReference: {fileID: 0}
     - target: {fileID: 1649812636879200500, guid: 76afb63a2e96d964bb3048ca64b007ff,
         type: 3}
       propertyPath: Sound.Array.size

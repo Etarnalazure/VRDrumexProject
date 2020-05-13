@@ -217,6 +217,7 @@
      <Compile Include="Assets\Script\BasicMovement.cs" />
      <Compile Include="Assets\Script\ControllerVelocity.cs" />
      <Compile Include="Assets\Script\Interaction.cs" />
+     <None Include="Assets\SpaceZeta_Spotlight\Info.txt" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />

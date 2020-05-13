@@ -586,6 +586,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: 74752aecd31994d0487bc75eb92c6010, type: 3}
+--- !u!1 &655962468 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4787401170618935596, guid: 76afb63a2e96d964bb3048ca64b007ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 6499967553258989395}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &655962476
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655962468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,13 +1029,23 @@ PrefabInstance:
     - target: {fileID: 1649812636879200500, guid: 76afb63a2e96d964bb3048ca64b007ff,
         type: 3}
       propertyPath: Sound.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1649812636879200500, guid: 76afb63a2e96d964bb3048ca64b007ff,
         type: 3}
       propertyPath: Sound.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: b505675eecf04f74a924d40bfd1bc56b, type: 3}
+      objectReference: {fileID: 8300000, guid: 5d35a7eab70a04e4584f36fc45306f38, type: 3}
+    - target: {fileID: 1649812636879200500, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: Sound.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 08f0b7c1cb4d16c49a701f57f75e6d37, type: 3}
+    - target: {fileID: 1649812636879200500, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: Sound.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: e9265c60f94c50b4f869b327880976d9, type: 3}
     - target: {fileID: 1813737788379904651, guid: 76afb63a2e96d964bb3048ca64b007ff,
         type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -1090,6 +1120,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275501070584968981, guid: 76afb63a2e96d964bb3048ca64b007ff,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6426058486595480818, guid: 76afb63a2e96d964bb3048ca64b007ff,
         type: 3}

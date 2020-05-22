@@ -216,6 +216,7 @@
      <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
      <Compile Include="Assets\Script\BasicMovement.cs" />
      <Compile Include="Assets\Script\ControllerVelocity.cs" />
+     <Compile Include="Assets\Script\FootPedal.cs" />
      <Compile Include="Assets\Script\Interaction.cs" />
      <Compile Include="Assets\Script\SceneChanger.cs" />
      <None Include="Assets\SpaceZeta_Spotlight\Info.txt" />

@@ -10,6 +10,8 @@ public class ControllerVelocity : MonoBehaviour
 
     public bool Left = false;
     public bool Right = false;
+
+    public bool IsColliding = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,19 +27,47 @@ public class ControllerVelocity : MonoBehaviour
         if (Left)
         {
             speed = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.LTouch).magnitude;
+
         }
         else if(Right)
         {
             speed = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch).magnitude;
-           // OVRInput.SetControllerVibration(1,1, OVRInput.Controller.RTouch);
         }
-        
+        if (!IsColliding)
+        {
+            this.gameObject.transform.position = SpawnPoint.gameObject.transform.position;
+            this.gameObject.transform.rotation = SpawnPoint.gameObject.transform.rotation;
+            this.rb.velocity = Vector3.zero;
+            this.rb.angularVelocity = Vector3.zero;
+        }
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+        IsColliding = true;
+        if (IsColliding)
+        {
+            Rumble(1f);
+        }
+    }
     void OnCollisionExit(Collision other)
     {
-        this.gameObject.transform.position = SpawnPoint.gameObject.transform.position;
-        this.gameObject.transform.rotation = SpawnPoint.gameObject.transform.rotation;
+        IsColliding = false;
+        if (!IsColliding)
+        {
+            Rumble(0);
+        }
+    }
+
+    public void Rumble(float amplitude = 1)
+    {
+        if (Left)
+        {
+            OVRInput.SetControllerVibration(1, amplitude, OVRInput.Controller.LTouch);
+        }
+        else if(Right)
+        {
+            OVRInput.SetControllerVibration(1, amplitude, OVRInput.Controller.RTouch);
+        }
     }
 
 }

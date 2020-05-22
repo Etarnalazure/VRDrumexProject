@@ -3,13 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Random = UnityEngine.Random;
 
 
 
 public class MenuInteraction : MonoBehaviour
 {
-
+    public int SceneNr;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +27,7 @@ public class MenuInteraction : MonoBehaviour
 
         // color = Random.Range(0, 10);
 
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneNr);
 
     }
 

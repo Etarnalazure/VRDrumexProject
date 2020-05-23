@@ -28,10 +28,6 @@ public class Interaction : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-    
-    }
-    private void OnTriggerExit(Collider other)
-    {
 
 
 
@@ -61,6 +57,11 @@ public class Interaction : MonoBehaviour
         }
 
         SoundSource.Play(0);
+
+    }
+    private void OnTriggerExit(Collider other)
+    {
+
  
     }
 }

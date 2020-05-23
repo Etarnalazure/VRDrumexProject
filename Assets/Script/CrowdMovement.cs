@@ -7,7 +7,7 @@ public class CrowdMovement : MonoBehaviour
     public Transform pointA;
     public Transform pointB;
     private Vector3 targetPoint;
-    public float speed = 1;
+    private float speed = 3;
     private void Start()
     {
         targetPoint = pointA.position;

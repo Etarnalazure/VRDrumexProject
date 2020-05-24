@@ -216,6 +216,9 @@
      <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
      <Compile Include="Assets\Script\BasicMovement.cs" />
      <Compile Include="Assets\Script\ControllerVelocity.cs" />
+     <Compile Include="Assets\Script\CrowdMovement.cs" />
+     <Compile Include="Assets\Script\CurvePlane.cs" />
+     <Compile Include="Assets\Script\DrumAlong.cs" />
      <Compile Include="Assets\Script\FootPedal.cs" />
      <Compile Include="Assets\Script\Interaction.cs" />
      <Compile Include="Assets\Script\MenuInteraction.cs" />

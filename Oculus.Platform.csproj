@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2A5696BE-F879-CB34-2D93-2F3ED75D4230}</ProjectGuid>
+    <ProjectGuid>{0252C6E4-4F79-74F9-FCD0-77E9CFEDB39E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.Platform</AssemblyName>
@@ -232,10 +232,10 @@
      <Compile Include="Assets\Oculus\Platform\Scripts\WindowsPlatform.cs" />
      <None Include="Assets\Oculus\Platform\Oculus.Platform.asmdef" />
  <Reference Include="UnityEditor.UI">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -425,9 +425,6 @@
  </Reference>
  <Reference Include="UnityEditor.WebGL.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Android.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

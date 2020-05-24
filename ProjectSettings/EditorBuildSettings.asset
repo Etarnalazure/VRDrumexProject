@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene09.unity
     guid: 627d6e8ee29fd034891d0a479a661085
+  - enabled: 1
+    path: Assets/Scenes/ControllerInfo.unity
+    guid: 7cac352aadb00b7478e9f8996f37365d
   m_configObjects: {}

@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FD01727F-E26B-2324-7340-B68F5287C366}</ProjectGuid>
+    <ProjectGuid>{60E9D0B3-FE34-EC18-6361-1BDB85A22AF2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -81,37 +81,37 @@
      <Compile Include="Assets\Oculus\Spatializer\editor\ONSPPropagationSerializationManager.cs" />
      <Compile Include="Assets\Oculus\Spatializer\editor\ONSPReflectionCustomGUI.cs" />
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -302,11 +302,8 @@
  <Reference Include="UnityEditor.WebGL.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Android.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
- </Reference>
  <Reference Include="nunit.framework">
- <HintPath>H:/Unity Projects/VRDrumex/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -665,27 +662,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{8ED75994-825C-4A0D-030F-300B08E084F1}</Project>
+      <Project>{8793EC69-AD98-011C-9F35-C18CD359B089}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{F7745076-99CF-3545-41E6-01D0A1848C83}</Project>
+      <Project>{44890633-2C0B-924E-2418-36D3AAE67B14}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{C0E1D36A-289B-5817-D61A-9B9A1828DD1E}</Project>
+      <Project>{E2D5E487-BA1D-553E-677F-5919CA189111}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{553AA914-7F6B-CEAB-C0C4-B5B441F9D13C}</Project>
+      <Project>{0CC25A2D-0A0C-D3EF-32D1-9DF3A4EDDA48}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{5CBBDDB5-4E71-9093-C94D-CA74768C48C4}</Project>
+      <Project>{57DD9A0D-A0B9-8583-A8EB-F92ED5EE0A9D}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{2A5696BE-F879-CB34-2D93-2F3ED75D4230}</Project>
+      <Project>{0252C6E4-4F79-74F9-FCD0-77E9CFEDB39E}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
   </ItemGroup>

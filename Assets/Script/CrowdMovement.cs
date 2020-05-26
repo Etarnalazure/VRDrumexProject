@@ -16,6 +16,7 @@ public class CrowdMovement : MonoBehaviour
     // Move target between targets
     public void Update()
     {
+        //Here we make sure they jump up and down by giving them a start, an end and how long to take to get from the two
         transform.position = Vector3.MoveTowards(
             transform.position,
             targetPoint,

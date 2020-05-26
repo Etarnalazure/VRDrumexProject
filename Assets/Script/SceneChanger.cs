@@ -11,6 +11,7 @@ public class SceneChanger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Here we change the scene using an invoke which allows for a timer
         Invoke("ChangeScene", sceneTime);
     }
 

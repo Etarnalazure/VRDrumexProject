@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{57DD9A0D-A0B9-8583-A8EB-F92ED5EE0A9D}</ProjectGuid>
+    <ProjectGuid>{5CBBDDB5-4E71-9093-C94D-CA74768C48C4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.VR</AssemblyName>
@@ -141,10 +141,10 @@
      <None Include="Assets\Oculus\VR\Shaders\OVRVignette.shader" />
      <None Include="Assets\Oculus\VR\Resources\Unlit Transparent Color.shader" />
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/drumix/Github Repositories/VRDrumexProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>H:/Unity Projects/VRDrumex/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -334,6 +334,9 @@
  </Reference>
  <Reference Include="UnityEditor.WebGL.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -23,10 +23,8 @@ public class MenuInteraction : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        //force = other.GetComponent<ControllerVelocity>().speed;
 
-        // color = Random.Range(0, 10);
-
+        //Here we load a scene based on a collision
         SceneManager.LoadScene(SceneNr);
 
     }

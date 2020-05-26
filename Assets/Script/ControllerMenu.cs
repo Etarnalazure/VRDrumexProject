@@ -14,7 +14,8 @@ public class ControllerMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.One))
+        //Switch scene if the below button is pressed
+        if (OVRInput.GetDown(OVRInput.Button.One) || OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
         {
             SceneManager.LoadScene(1);
         }
